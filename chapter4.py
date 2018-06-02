@@ -15,9 +15,16 @@
 #replace() replaces one word with another
 
 #Chapter 4 exercise
-email = "In this biographical drama, Britain's King George VI struggles with an embarrassing stutter until he seeks help from speech therapist Lionel Logue. emergency"
+email = "In this biographical drama, Britain's King George VI struggles with an embarrassing stutter until he seeks help from speech therapist Lionel Logue."
 
 if email.find("emergency") > 0:
     print "Do you want to make this email urgent?"
 else:
     print "Do you want to set this email as non-urgent?"
+
+#or
+
+if email.find("emergency") == -1:
+    print "Do you want to set this email as non-urgent?"
+else:
+    print "Do you want to make this email urgent?"
