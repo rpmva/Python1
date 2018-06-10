@@ -1,6 +1,6 @@
 print "Welcome to the student checker!"
 attendance = ['Ryan McGovern', 'Patrick Kane', 'TJ Meder']
-name = raw_input("Please give me the name of a student (enter 'q' to quit): ")
+name = ""
 
 def check_student(name):
     if name in attendance:
@@ -9,8 +9,6 @@ def check_student(name):
     else:
         print "No, that student is not in the class."
         return False
-
-check_student(name)
 
 while name != 'q':
     name = raw_input("Please give me the name of a student (enter 'q' to quit): ")
