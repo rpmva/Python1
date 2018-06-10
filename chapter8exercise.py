@@ -10,7 +10,7 @@ def check_student(name):
         print "No, that student is not in the class."
         return False
 
-#check_student(name)
+check_student(name)
 
 while name != 'q':
     name = raw_input("Please give me the name of a student (enter 'q' to quit): ")
