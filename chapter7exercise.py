@@ -1,8 +1,9 @@
 print "Welcome to the receipt program!"
 total = [];
 s = "*";
+cost = ""
 
-while True:
+while not cost == "q":
     cost = input("Enter the value for the seat. ['q' to quit]: ");
     if cost == 'q':
         print s * 5
